@@ -1,5 +1,9 @@
 {
-  "version": "1.0.0",
-  "changelog": "Release Version of Glitch Studios Spawn Objects",
+  "version": "1.1.0",
+  "changelog":[
+    "Added expiry time system for synced objects - objects can now auto-delete after a set duration",
+    "Implemented auto-cleanup task to remove expired objects cleanly from database and clients",
+    "Enhanced Discord logging with richer information"
+  ],
   "discord": "https://discord.gg/PAQX8ANEfw"
 }
