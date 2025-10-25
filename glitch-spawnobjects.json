@@ -1,9 +1,10 @@
 {
-  "version": "1.1.0",
+  "version": "1.1.1",
   "changelog": [
-    "Added expiry time system for synced objects - objects can now auto-delete after a set duration",
-    "Implemented auto-cleanup task to remove expired objects cleanly from database and clients",
-    "Enhanced Discord logging with richer information"
+    "Added support for predefined prop selection, allowing quick placement of commonly used objects.",
+    "Refactored config structure for improved readability, scalability, and future expansion.",
+    "Optimised predefined prop loading for faster initialisation and reduced redundancy.",
+    "Minor performance and stability fixes."
   ],
   "discord": "https://discord.gg/PAQX8ANEfw"
 }
